@@ -14,7 +14,7 @@ module.exports = () => {
       }
       if (ctx.url === '/swagger-doc') {
         ctx.response.status = 200;
-        ctx.response.type = 'appliction/json';
+        ctx.response.type = 'text/html';
         let swagger = swagger_loader(ctx.app);
         swagger.host = ctx.host;
         ctx.response.body = JSON.stringify(swagger);

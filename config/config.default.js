@@ -43,7 +43,7 @@ exports.swaggerdoc = {
     }
 
   },
-  enableSecurity: true,
+  enableSecurity: false,
   enable: true,
 };
 

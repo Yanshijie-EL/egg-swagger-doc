@@ -14,9 +14,15 @@ describe('test/swagger-doc.test.js', () => {
   after(() => app.close());
   afterEach(mock.restore);
 
-  it('should GET /', () => {
+  it('should GET /swagger-ui.html', () => {
     return app.httpRequest()
       .get('/swagger-ui.html')
+      .expect(200);
+  });
+
+  it('should GET /swagger-doc', () => {
+    return app.httpRequest()
+      .get('/swagger-doc')
       .expect(200);
   });
 });

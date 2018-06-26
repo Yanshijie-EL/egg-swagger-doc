@@ -12,12 +12,12 @@ module.exports = () => {
         ctx.response.type = 'text/html';
         ctx.response.body = fs.readFileSync(swaggerPath).toString();
       }
-      if (ctx.url === '/swagger.json') {
+      if (ctx.url === '/swagger-doc') {
         ctx.response.status = 200;
         ctx.response.type = 'appliction/json';
         let swagger = swagger_loader(ctx.app);
         swagger.host = ctx.host;
-        ctx.response.body = JSON.stringify(JSON.stringify(swagger));
+        ctx.response.body = JSON.stringify(swagger);
         return ctx;
       }
     }

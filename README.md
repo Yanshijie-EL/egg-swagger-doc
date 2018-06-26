@@ -20,7 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-swagger-doc.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-swagger-doc
 
-目前仅是测试
+this is a test version for swagger
 
 ## Install
 
@@ -43,6 +43,16 @@ exports.swaggerdoc = {
 ```js
 // {app_root}/config/config.default.js
 exports.swaggerdoc = {
+  dirScanner: './app/controller',
+  apiInfo: {
+    title: 'egg-swagger',
+    description: 'swagger-ui for egg',
+    version: '1.0.0',
+  },
+  schemes: ['http', 'https'],
+  consumes: ['application/json'],
+  produces: ['application/json'],
+  enable: true,
 };
 ```
 

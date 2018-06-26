@@ -17,7 +17,6 @@ exports.swaggerdoc = {
   consumes: ['application/json'],
   produces: ['application/json'],
   enable: true,
-
 };
 
 exports.static = {

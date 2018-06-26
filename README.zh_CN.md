@@ -20,9 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-swagger-doc.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-swagger-doc
 
-<!--
-Description here.
--->
+这是一个关于swagger的测试版本
 
 ## 依赖说明
 

@@ -6,7 +6,7 @@ const Controller = require('egg').Controller;
  */
 class HomeController extends Controller {
   /**
-   * @clientkey
+   * @apikey
    * @Router POST /user
    * @Request body createUser name description-createUser
    * @Request header string access_token

@@ -27,12 +27,12 @@ exports.swaggerdoc = {
   consumes: ['application/json'],
   produces: ['application/json'],
   securityDefinitions: {
-    clientkey: {
+    apikey: {
       type: "apiKey",
       name: "clientkey",
       in: "header",
     },
-    userAuth: {
+    oauth2: {
       type: "oauth2",
       tokenUrl: "http://petstore.swagger.io/oauth/dialog",
       flow: "password",

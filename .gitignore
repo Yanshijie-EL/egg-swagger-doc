@@ -1,4 +1,7 @@
 run
+.idea
+.travis.yml
+appveyor.yml
 
 # Logs
 logs

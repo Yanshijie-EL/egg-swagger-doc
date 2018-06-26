@@ -162,6 +162,7 @@
     },
     "swaggerdoc": {
       "dirScanner": "./app/controller",
+      "basePath": "/",
       "apiInfo": {
         "title": "egg-swagger",
         "description": "swagger-ui for egg",
@@ -177,6 +178,23 @@
       "produces": [
         "application/json"
       ],
+      "securityDefinitions": {
+        "clientkey": {
+          "type": "apiKey",
+          "name": "clientkey",
+          "in": "header"
+        },
+        "userAuth": {
+          "type": "oauth2",
+          "tokenUrl": "http://petstore.swagger.io/oauth/dialog",
+          "flow": "password",
+          "scopes": {
+            "write:access_token": "write access_token",
+            "read:access_token": "read access_token"
+          }
+        }
+      },
+      "enableSecurity": true,
       "enable": true
     },
     "env": "unittest",

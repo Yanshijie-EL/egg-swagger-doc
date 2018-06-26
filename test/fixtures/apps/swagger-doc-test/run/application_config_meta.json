@@ -128,6 +128,7 @@
   },
   "swaggerdoc": {
     "dirScanner": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+    "basePath": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "apiInfo": {
       "title": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
       "description": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
@@ -136,6 +137,23 @@
     "schemes": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "consumes": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "produces": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+    "securityDefinitions": {
+      "clientkey": {
+        "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+        "name": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+        "in": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
+      },
+      "userAuth": {
+        "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+        "tokenUrl": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+        "flow": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+        "scopes": {
+          "write:access_token": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+          "read:access_token": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
+        }
+      }
+    },
+    "enableSecurity": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
   },
   "env": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",

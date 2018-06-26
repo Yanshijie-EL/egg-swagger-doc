@@ -6,6 +6,7 @@ const Controller = require('egg').Controller;
  */
 class HomeController extends Controller {
   /**
+   * @clientkey
    * @Router POST /user
    * @Request body createUser name description-createUser
    * @Request header string access_token
@@ -19,7 +20,6 @@ class HomeController extends Controller {
  * @Router PUT /user
  * @Request body updateUser name description-createUser
  * @Request header string access_token
- * @Response 200 baseResponse ok
  */
   async index2() {
     this.ctx.body = 'hi, ' + this.app.plugins.swagger.name;

@@ -18,7 +18,7 @@ class HomeController extends Controller {
 
   /**
  * @Router PUT /user
- * @Request body updateUser name description-createUser
+ * @Request body updateUser name description-updateUser
  * @Request header string access_token
  */
   async index2() {

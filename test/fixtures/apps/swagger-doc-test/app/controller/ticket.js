@@ -8,7 +8,7 @@ class TicketController extends Controller {
   /**
    * @apikey
    * @Router POST /ticket
-   * @Request body createUser name description-createUser
+   * @Request body createUser name description for ticket
    * @Request header string access_token
    * @Response 200 baseResponse ok
    */
@@ -18,7 +18,7 @@ class TicketController extends Controller {
 
   /**
  * @Router PUT /ticket
- * @Request body updateUser name description-createUser
+ * @Request body updateUser name update ticket
  * @Request header string access_token
  */
   async index2() {

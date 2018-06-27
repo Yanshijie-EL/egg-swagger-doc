@@ -41,7 +41,6 @@ exports.swaggerdoc = {
     //     'read:access_token': 'read access_token',
     //   },
     // },
-
   },
   enableSecurity: false,
   enable: true,

@@ -32,15 +32,15 @@ exports.swaggerdoc = {
       name: 'clientkey',
       in: 'header',
     },
-    oauth2: {
-      type: 'oauth2',
-      tokenUrl: 'http://petstore.swagger.io/oauth/dialog',
-      flow: 'password',
-      scopes: {
-        'write:access_token': 'write access_token',
-        'read:access_token': 'read access_token',
-      },
-    },
+    // oauth2: {
+    //   type: 'oauth2',
+    //   tokenUrl: 'http://petstore.swagger.io/oauth/dialog',
+    //   flow: 'password',
+    //   scopes: {
+    //     'write:access_token': 'write access_token',
+    //     'read:access_token': 'read access_token',
+    //   },
+    // },
 
   },
   enableSecurity: false,

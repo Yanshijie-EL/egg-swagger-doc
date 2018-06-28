@@ -142,15 +142,6 @@
         "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
         "name": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
         "in": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
-      },
-      "oauth2": {
-        "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "tokenUrl": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "flow": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "scopes": {
-          "write:access_token": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-          "read:access_token": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
-        }
       }
     },
     "enableSecurity": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",

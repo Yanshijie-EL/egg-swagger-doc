@@ -1,6 +1,6 @@
 # egg-swagger-doc
 
-针对eggjs的swaggerUI
+应用于eggjs的plugin,可自动生成SwaggerUI。应用启动后访问/swaagger-ui.html可以浏览页面，访问/swagger-doc,获取swaggerjson.
 
 ## Install
 
@@ -63,15 +63,84 @@ class UserController extends Controller {
     a.Mothod,请求的方法(post/get/put/delete等)，不区分大小写。
     b.Path,请求的路由。
 
+@Request 
+---
+格式：@Request {Position} {Type} {Name} {Description}
+
+    a.position.参数的位置,该值可以是body/path/query/header/formData.
+    b.Type.参数类型，body之外位置目前只支持基础类型,integer/string/boolean/number，及基础类型构成的数组，body中则支持contract中定义的类型。
+    c.Name.参数名称.如果参数名称以*开头则表示必要，否则非必要。
+    d.Description.参数描述
+
+@Response
+---
+格式：@Response {HttpStatus} {Type} {Description}
+
+    a.HttpStatus.Http状态码。
+    b.Type.同Request中body位置的参数类型。
+    d.Description.响应描述。
+
+@Deprecated
+---
+
+    如果注释块中包含此标识，则表示该注释块注明的接口，未完成或不启用。
+
+@Description
+---
+格式：@Description {Description}
+
+    接口具体描述
+
+@Summary
+---
+格式：@Summary {Summary}
+
+    接口信息小标题
+
+
 例：
 ```js
-
+/**
+ * @Controller user
+ */
+class HomeController extends Controller {
+  /**
+   * @Router POST /user
+   * @Request body createUser name description-createUser
+   * @Request header string access_token
+   * @Response 200 baseResponse ok
+   */
+  async index() {
+    this.ctx.body = 'hi, ' + this.app.plugins.swagger.name;
+  }
 ```
----
+如果在config中开启并定义了securityDefinitions,默认enableSecurity为false.则可在注释块中加入@apikey，加入安全验证。也可定义成其他名字，只需@定义好的字段名就好。关于securityDefinitions的定义可以自行搜索。
+
+```js
+exports.swaggerdoc = {
+  securityDefinitions: {
+    apikey: {
+      type: 'apiKey',
+      name: 'clientkey',
+      in: 'header',
+    },
+    // oauth2: {
+    //   type: 'oauth2',
+    //   tokenUrl: 'http://petstore.swagger.io/oauth/dialog',
+    //   flow: 'password',
+    //   scopes: {
+    //     'write:access_token': 'write access_token',
+    //     'read:access_token': 'read access_token',
+    //   },
+    // },
+  },
+  enableSecurity: true,
+};
+```
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/Ysj291823/egg-swagger-doc/issues).
 
 ## License
 

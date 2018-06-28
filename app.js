@@ -9,7 +9,7 @@ module.exports = app => {
   assert.equal(index, -1, 'Duplication of middleware name found: rest. Rename your middleware other than "rest" please.');
   // put swagger middleware in the first place
   app.config.coreMiddleware.unshift('swagger');
-  
-  app.logger.info(`[egg-swagger-doc] register router: '/swagger-ui.html'`);
-  app.logger.info(`[egg-swagger-doc] register router: '/swagger-doc'`);
+
+  app.logger.info('[egg-swagger-doc] register router: /swagger-ui.html');
+  app.logger.info('[egg-swagger-doc] register router: /swagger-doc');
 };

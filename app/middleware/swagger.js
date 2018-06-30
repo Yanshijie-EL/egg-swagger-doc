@@ -1,7 +1,6 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const swagger_loader = require('../../lib/swagger_loader');
 
 module.exports = () => {
   return function swagger(ctx, next) {
@@ -15,7 +14,7 @@ module.exports = () => {
       if (ctx.url === '/swagger-doc') {
         ctx.response.status = 200;
         ctx.response.type = 'text/html';
-        let swagger = swagger_loader(ctx.app);
+        let swagger = ctx.app.swagger_documents;
         swagger.host = ctx.host;
         ctx.response.body = JSON.stringify(swagger);
         return ctx;

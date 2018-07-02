@@ -17,7 +17,7 @@ class HomeController extends Controller {
   }
 
   /**
- * @Router PUT /user
+ * @Router PUT /user/haha
  * @Request body updateUser name description-updateUser
  * @Request header string access_token
  */

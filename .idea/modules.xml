@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<project version="4">
-    <component name="ProjectModuleManager">
-        <modules>
-            <module filepath="$PROJECT_DIR$/.idea/egg-swagger-doc.iml" fileurl="file://$PROJECT_DIR$/.idea/egg-swagger-doc.iml"/>
-        </modules>
-    </component>
-</project>

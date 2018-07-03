@@ -1,245 +1,245 @@
 {
-  "keys": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/config/config.default.js",
+  "keys": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/config/config.default.js",
   "session": {
-    "maxAge": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-session/config/config.default.js",
-    "key": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "useSession": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "headerName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "queryName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "useSession": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "cookieName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "sessionName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "headerName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "bodyName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "queryName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "value": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "maxAge": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "maxAge": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "value": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "value": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "policy": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "policy": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "checkAddress": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher/config/config.unittest.js",
+    "type": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.unittest.js",
     "eventSources": {
-      "default": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher/config/config.default.js",
-      "development": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
+      "development": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "files": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/config.default.js"
+    "autoFields": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "files": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-schedule/config/config.default.js",
-      "file": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js",
+      "file": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "dir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "dynamic": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "preload": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "buffer": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "maxFiles": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
+    "prefix": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "dir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "dynamic": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "preload": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "buffer": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "maxFiles": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js"
   },
   "view": {
-    "root": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view/config/config.default.js",
-    "cache": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view/config/config.default.js",
-    "defaultExtension": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view/config/config.default.js",
-    "mapping": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "cache": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultExtension": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "mapping": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
   },
   "swaggerdoc": {
-    "dirScanner": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "basePath": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+    "dirScanner": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "basePath": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
     "apiInfo": {
-      "title": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-      "description": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-      "version": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
+      "title": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+      "description": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+      "version": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js"
     },
-    "schemes": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "consumes": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "produces": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
+    "schemes": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "consumes": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "produces": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
     "securityDefinitions": {
       "apikey": {
-        "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "name": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "in": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
+        "type": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+        "name": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+        "in": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js"
       }
     },
-    "enableSecurity": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
+    "enableSecurity": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js",
+    "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/config.default.js"
   },
-  "env": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "name": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "proxy": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
+  "env": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "name": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "proxy": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "protocolHeaders": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "ipHeaders": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "hostHeaders": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
   "pkg": {
-    "name": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "version": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "name": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "version": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
-  "baseDir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "HOME": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "rundir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "HOME": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "rundir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
   "dump": {
-    "ignore": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "notFound": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "sitefile": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "middlewares": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "httpClient": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "notFound": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "sitefile": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "middlewares": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "httpClient": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "encoding": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "formLimit": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "strict": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
+    "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "encoding": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "formLimit": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "jsonLimit": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "strict": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "depth": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "depth": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "parameterLimit": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "encoding": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "env": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "level": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.unittest.js",
-    "disableConsoleAfterReady": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "outputJSON": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "buffer": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.unittest.js",
-    "appLogName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "coreLogName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "agentLogName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "errorLogName": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "coreLogger": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "allowDebugAtProd": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "dir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "encoding": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "env": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "level": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "consoleLevel": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "outputJSON": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "buffer": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.unittest.js",
+    "appLogName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "coreLogName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "agentLogName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "errorLogName": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "coreLogger": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
     "request": {
-      "timeout": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "maxSockets": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxSockets": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "maxSockets": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxSockets": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "logging": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "enable": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "logging": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
-  "coreMiddleware": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "port": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-      "hostname": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "port": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+      "hostname": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js",
+    "responseTimeout": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
   },
-  "onClientError": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/config.default.js"
 }

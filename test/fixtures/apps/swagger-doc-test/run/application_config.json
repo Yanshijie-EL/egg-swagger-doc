@@ -84,27 +84,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-session/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-jsonp/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-onerror/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-schedule/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-static/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-mock/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-mock/lib/tmp/config/locales",
-        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/config/locales"
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-session@3.1.0@egg-session/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-schedule@3.3.0@egg-schedule/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-static@2.1.1@egg-static/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-mock@3.17.2@egg-mock/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-mock@3.17.2@egg-mock/lib/tmp/config/locales",
+        "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -114,8 +114,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -132,7 +132,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/logs/swagger-doc-test/egg-schedule.log"
+        "file": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/logs/swagger-doc-test/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -146,7 +146,7 @@
     },
     "static": {
       "prefix": "/",
-      "dir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/app/public",
+      "dir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -154,7 +154,7 @@
       "files": "<LRU>"
     },
     "view": {
-      "root": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/app/view",
+      "root": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/app/view",
       "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -199,9 +199,9 @@
       "name": "swagger-doc-test",
       "version": "0.0.1"
     },
-    "baseDir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test",
-    "HOME": "/home/yanshijie",
-    "rundir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/run",
+    "baseDir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test",
+    "HOME": "/Users/sinchang",
+    "rundir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -232,7 +232,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/logs/swagger-doc-test",
+      "dir": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/test/fixtures/apps/swagger-doc-test/logs/swagger-doc-test",
       "encoding": "utf8",
       "env": "unittest",
       "level": "INFO",
@@ -322,8 +322,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-session",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -335,8 +335,8 @@
         "session"
       ],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-security",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-security@2.2.2@egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -348,8 +348,8 @@
         "security"
       ],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-jsonp",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -361,8 +361,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-onerror",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -372,8 +372,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-i18n",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-i18n@2.0.0@egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -383,8 +383,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-watcher",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-watcher@3.0.0@egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -394,8 +394,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-multipart",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-multipart@2.0.0@egg-multipart",
       "version": "2.0.0"
     },
     "schedule": {
@@ -405,8 +405,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-schedule",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-schedule@3.3.0@egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -418,8 +418,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-logrotator",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-logrotator@3.0.3@egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -429,8 +429,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-static",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-static@2.1.1@egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -440,13 +440,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg/config/plugin.js",
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-view",
+      "from": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg@2.9.1@egg/config/plugin.js",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-view@2.1.0@egg-view",
       "version": "2.1.0"
     },
     "egg-mock": {
       "enable": true,
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/node_modules/egg-mock",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc/node_modules/_egg-mock@3.17.2@egg-mock",
       "name": "egg-mock",
       "dependencies": [],
       "optionalDependencies": [],
@@ -455,12 +455,12 @@
     },
     "swaggerdoc": {
       "enable": true,
-      "path": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc",
+      "path": "/Users/sinchang/gpm/github.com/Ysj291823/egg-swagger-doc",
       "name": "swaggerdoc",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "1.2.2"
+      "version": "1.2.3"
     }
   }
 }

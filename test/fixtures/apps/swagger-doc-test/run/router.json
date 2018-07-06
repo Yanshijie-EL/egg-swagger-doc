@@ -11,18 +11,5 @@
     "stack": [
       "wrappedController"
     ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/ticket",
-    "regexp": "/^\\/ticket(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
   }
 ]

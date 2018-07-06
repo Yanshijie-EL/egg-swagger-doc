@@ -2,14 +2,7 @@
 
 module.exports = {
   baseResponse: {
-    type: 'object',
-    properties: {
-      result: {
-        type: 'boolean',
-      },
-      message: {
-        type: 'string',
-      },
-    },
+    result: { type: 'boolean', required: true },
+    message: { type: 'string' },
   },
 };

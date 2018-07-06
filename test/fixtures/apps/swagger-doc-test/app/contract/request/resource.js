@@ -1,22 +1,11 @@
 'use strict';
 module.exports = {
   createResource: {
-    required: ['workshopId', 'userName'],
-    type: 'object',
-    properties: {
-      workshopId: {
-        type: 'string',
-      },
-      userName: {
-        type: 'string',
-      },
-      phoneNumber: {
-        type: 'string',
-      },
-      unionId: {
-        type: 'string',
-      },
-    },
-
+    resourceId: { type: 'string', required: true, example: '1' },
+    resourceNametrue: { type: 'string', required: true },
+    resourceType: { type: 'string', required: true, enum: ['video', 'game', 'image'] },
+    resourceTag: { type: 'array', itemType: 'string' },
+    owner: { type: 'User', required: true },
+    owners: { type: 'array', itemType: 'User' }
   },
 };

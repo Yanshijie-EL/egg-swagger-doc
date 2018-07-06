@@ -7,7 +7,6 @@ module.exports = app => {
 
   app.beforeStart(async () => {
     app.swagger_documents = swagger_loader(app);
-    console.log(JSON.stringify(app.swagger_documents));
   });
 
   // remove existed swagger plugin configuration to prevent error configurations.

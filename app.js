@@ -8,7 +8,6 @@ module.exports = app => {
   app.beforeStart(async () => {
     let swagger = swaggerLoader(app);
     app['rule'] = swaggerRule(swagger.definitions);
-    console.log(app.rule);
   });
 
 };

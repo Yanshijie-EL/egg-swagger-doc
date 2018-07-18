@@ -30,8 +30,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/swagger-ui.html",
-    "regexp": "/^\\/swagger-ui\\.html(?:\\/(?=$))?$/",
+    "path": "/swagger-doc",
+    "regexp": "/^\\/swagger-doc(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -43,8 +43,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/swagger-doc",
-    "regexp": "/^\\/swagger-doc(?:\\/(?=$))?$/",
+    "path": "/swagger-ui.html",
+    "regexp": "/^\\/swagger-ui\\.html(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

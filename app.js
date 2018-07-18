@@ -1,6 +1,8 @@
 'use strict';
 const swaggerLoader = require('./lib/swagger_loader');
 const swaggerRule = require('./lib/swagger_rule');
+const path = require('path');
+const fs = require('fs');
 
 // load all js files in app/apis/ directory automatically
 module.exports = app => {
@@ -8,7 +10,24 @@ module.exports = app => {
   app.beforeStart(async () => {
     let swagger = swaggerLoader(app);
     app['swagger'] = swagger;
-    app['rule'] = swaggerRule(app.swagger.definitions);
+    app.get('/swagger-doc', ctx => {
+      ctx.response.status = 200;
+      ctx.response.type = 'text/html';
+      app.swagger.host = ctx.host;
+      ctx.response.body = JSON.stringify(app.swagger);
+    });
+    app.logger.info('[egg-swagger-doc] register router: /swagger-doc');
+
+    app.get('/swagger-ui.html', ctx => {
+      let swaggerPath = path.join(__dirname, '/app/public/index.html');
+      ctx.response.status = 200;
+      ctx.response.type = 'text/html';
+      ctx.response.body = fs.readFileSync(swaggerPath).toString();
+    });
+    app.logger.info('[egg-swagger-doc] register router: /swagger-ui.html');
+
+    app['rule'] = swaggerRule(swagger.definitions);
+
   });
 
 };

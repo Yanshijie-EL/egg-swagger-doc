@@ -8,13 +8,14 @@ const fs = require('fs');
 module.exports = app => {
 
   app.beforeStart(async () => {
-    let swagger = swaggerLoader(app);
-    app['swagger'] = swagger;
+    const swagger = swaggerLoader(app);
+
     app.get('/swagger-doc', ctx => {
       ctx.response.status = 200;
       ctx.response.type = 'text/html';
-      app.swagger.host = ctx.host;
-      ctx.response.body = JSON.stringify(app.swagger);
+      swagger.host = ctx.host;
+      ctx.response.body = JSON.stringify(swagger);
+
     });
     app.logger.info('[egg-swagger-doc] register router: /swagger-doc');
 

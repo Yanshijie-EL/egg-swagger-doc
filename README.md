@@ -137,6 +137,76 @@ exports.swaggerdoc = {
   enableSecurity: true,
 };
 ```
+## contract定义
+关于Contract的定义其实在测试代码里面，已经把支持的所有情况都定义出来了。详见[here](test/fixtures/apps/swagger-doc-test/app/contract/request/resource.js),这里我简单说明一下，以下是测试代码中的部分contract。
+
+```js
+module.exports = {
+  createResource: {
+    resourceId: { type: 'string', required: true, example: '1' },
+    resourceNametrue: { type: 'string', required: true },
+    resourceType: { type: 'string', required: true, enum: ['video', 'game', 'image'] },
+    resourceTag: { type: 'array', itemType: 'string' },
+    owner: { type: 'User', required: true },
+    owners: { type: 'array', itemType: 'User' }
+  },
+};
+```
+@基础类型
+
+
+
+```js
+module.exports = {
+  Model名称:{
+    字段名称: { type: 字段类型，required: 字段必要性, example: 示例}
+  }
+}
+```
+注：type可以是array之外的类型，包括自定义的类型，目前自定义类型不支持example
+
+---
+
+@ENUM
+
+
+```js
+module.exports = {
+  Model名称:{
+    字段名称: { type: 字段类型，required: 字段必要性, enum:[]}
+  }
+}
+```
+注: type只能是string或number，enum为具体的数值组成的集合
+
+---
+@ARRAY
+
+
+```js
+module.exports = {
+  Model名称:{
+    字段名称: { type: "array"，required: 字段必要性, itemType:数组元素类型}
+  }
+}
+```
+type为array,itemType为具体的数组元素类型，支持自定义类型。
+
+---
+@自定义类型
+
+关于自定义类型，必须定义在contract目录下，在contract下的其他类型中使用时，直接使用Model名称引入。
+
+---
+
+因为contract的定义和validate-rule的定义具有极大的相似性，所以目前的版本中定义contract的同时会简单的生成相应的validate-rule.具体的使用'ctx.rule.'加Model名称直接引入。
+
+上面的model，在做验证的时候就可以使用如下的方式(需使用egg-validate)
+```js
+
+ctx.validate(ctx.rule.createResource, ctx.request.body);
+
+```
 
 ## Questions & Suggestions
 

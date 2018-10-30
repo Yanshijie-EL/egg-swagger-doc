@@ -30,7 +30,7 @@ module.exports = app => {
     }
 
     app['rule'] = swaggerRule(swagger.definitions);
-
+    
   });
 
 };

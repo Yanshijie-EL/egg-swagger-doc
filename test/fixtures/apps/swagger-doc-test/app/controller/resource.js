@@ -11,6 +11,7 @@ class ResourceController extends Controller {
    * @Request body createResource *body resourceInfo
    * @Request header string access_token
    * @Response 200 baseResponse
+   * @Response 400 baseResponse
    */
   async index() {
     this.ctx.body = {

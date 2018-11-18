@@ -20,7 +20,7 @@ module.exports = app => {
       });
       app.logger.info('[egg-swagger-doc] register router: /swagger-doc');
 
-      app.get('/swagger-ui.html', ctx => {
+      app.get('/public/swagger-ui.html', ctx => {
         let swaggerPath = path.join(__dirname, '/app/public/index.html');
         ctx.response.status = 200;
         ctx.response.type = 'text/html';

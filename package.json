@@ -1,6 +1,6 @@
 {
   "name": "egg-swagger-doc",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "swagger for egg",
   "eggPlugin": {
     "name": "swaggerdoc"

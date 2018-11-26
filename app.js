@@ -26,7 +26,7 @@ module.exports = app => {
         ctx.response.type = 'text/html';
         ctx.response.body = fs.readFileSync(swaggerPath).toString();
       });
-      app.logger.info('[egg-swagger-doc] register router: /swagger-ui.html');
+      app.logger.info('[egg-swagger-doc] register router: /public/swagger-ui.html');
     }
 
     app['rule'] = swaggerRule(swagger.definitions);

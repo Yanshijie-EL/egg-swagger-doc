@@ -116,7 +116,10 @@
     },
     "static": {
       "prefix": "/",
-      "dir": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/app/public",
+      "dir": [
+        "/home/yanshijie/Documents/program_git/app/public",
+        "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/app/public"
+      ],
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -147,13 +150,7 @@
       "produces": [
         "application/json"
       ],
-      "securityDefinitions": {
-        "apikey": {
-          "type": "apiKey",
-          "name": "clientkey",
-          "in": "header"
-        }
-      },
+      "securityDefinitions": {},
       "enableSecurity": false,
       "enable": true
     },
@@ -410,7 +407,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "1.4.0"
+      "version": "1.4.5"
     }
   }
 }

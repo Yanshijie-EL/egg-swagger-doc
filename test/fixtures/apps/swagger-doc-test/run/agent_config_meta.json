@@ -137,13 +137,7 @@
     "schemes": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "consumes": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "produces": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-    "securityDefinitions": {
-      "apikey": {
-        "type": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "name": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
-        "in": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
-      }
-    },
+    "securityDefinitions": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "enableSecurity": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js",
     "enable": "/home/yanshijie/Documents/program_git/node/egg-swagger-doc/config/config.default.js"
   },

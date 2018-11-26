@@ -47,7 +47,7 @@ exports.swaggerdoc = {
 };
 
 exports.static = {
-  prefix: '/public/',
+  prefix: '/',
   dir: [path.join(__dirname, '../../../app/public'),path.join(__dirname, '../app/public')],
   // support lazy load
   dynamic: true,

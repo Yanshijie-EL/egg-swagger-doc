@@ -32,6 +32,25 @@ exports.swaggerdoc = {
   schemes: ['http', 'https'],
   consumes: ['application/json'],
   produces: ['application/json'],
+  securityDefinitions: {
+    // apikey: {
+    //   type: 'apiKey',
+    //   name: 'clientkey',
+    //   in: 'header',
+    // },
+    // oauth2: {
+    //   type: 'oauth2',
+    //   tokenUrl: 'http://petstore.swagger.io/oauth/dialog',
+    //   flow: 'password',
+    //   scopes: {
+    //     'write:access_token': 'write access_token',
+    //     'read:access_token': 'read access_token',
+    //   },
+    // },
+  },
+  enableSecurity: false,
+  // enableValidate: true,
+  routerMap: false,
   enable: true,
 };
 ```
@@ -40,6 +59,8 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Introduce
 完成插件引入之后，如果不修改默认配置，应用启动后，会自动扫描app/controller和app/contract下的文件。controller下的文件先不做描述。contract下的文件为定义好的请求体和响应体。
+
+实验性功能：如果routerMap为true,允许自动生成API路由
 
 @Controller
 ---

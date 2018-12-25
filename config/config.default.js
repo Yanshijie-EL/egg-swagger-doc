@@ -1,6 +1,5 @@
 'use strict';
 
-const path = require('path');
 /**
  * egg-swagger-doc default config
  * @member Config#swagger-doc
@@ -13,6 +12,7 @@ const path = require('path');
  * @property {Array[String]} produces - contentType的集合
  * @property {Object} securityDefinitions - 安全验证，具体参考swagger官方文档
  * @property {Boolean} enableSecurity - 是否使用安全验证
+ * @property {Boolean} routeMap - 是否自动生成route
  * @property {Boolean} enable - swagger-ui是否可以访问
  */
 exports.swaggerdoc = {
@@ -20,7 +20,7 @@ exports.swaggerdoc = {
   basePath: '/',
   apiInfo: {
     title: 'egg-swagger',
-    description: 'swagger-ui for egg',
+    description: 'swagger-ui for egg js api',
     version: '1.0.0',
   },
   schemes: ['http', 'https'],
@@ -43,15 +43,7 @@ exports.swaggerdoc = {
     // },
   },
   enableSecurity: false,
-  enable: true,
-};
-
-exports.static = {
-  prefix: '/',
-  dir: [path.join(__dirname, '../../../app/public'),path.join(__dirname, '../app/public')],
-  // support lazy load
-  dynamic: true,
-  preload: false,
-  buffer: false,
-  maxFiles: 1000,
+  // enableValidate: true,
+  routerMap: false,
+  enable: false,
 };

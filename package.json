@@ -1,6 +1,6 @@
 {
   "name": "egg-swagger-doc",
-  "version": "1.4.6",
+  "version": "2.0.0",
   "description": "swagger for egg",
   "eggPlugin": {
     "name": "swaggerdoc"
@@ -10,7 +10,9 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "koa-static-cache": "^5.1.2"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",

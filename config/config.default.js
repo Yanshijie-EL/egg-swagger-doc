@@ -47,3 +47,9 @@ exports.swaggerdoc = {
   routerMap: false,
   enable: false,
 };
+
+exports.security = {
+  csrf: {
+    enable: false,
+  },
+};

@@ -3,6 +3,7 @@
   "rules": {
     "prefer-const": 0,
     "array-bracket-spacing": 0,
-    "dot-notation": "off"
+    "dot-notation": "off",
+    "valid-jsdoc":"off"
   }
 }

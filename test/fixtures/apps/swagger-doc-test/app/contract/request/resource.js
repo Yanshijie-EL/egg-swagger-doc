@@ -6,6 +6,6 @@ module.exports = {
     resourceType: { type: 'string', required: true, enum: ['video', 'game', 'image'] },
     resourceTag: { type: 'array', itemType: 'string' },
     owner: { type: 'User', required: true },
-    owners: { type: 'array', itemType: 'User' }
+    owners: { type: 'array', itemType: 'User' },
   },
 };

@@ -1,6 +1,7 @@
 # egg-swagger-doc
 
 应用于eggjs的plugin,可自动生成SwaggerUI。应用启动后访问/swaagger-ui.html可以浏览页面，访问/swagger-doc,获取swaggerjson.
+这是一个简单例子，详见[here](https://github.com/Ysj291823/egg-example-api)
 
 ## Install
 
@@ -32,6 +33,25 @@ exports.swaggerdoc = {
   schemes: ['http', 'https'],
   consumes: ['application/json'],
   produces: ['application/json'],
+  securityDefinitions: {
+    // apikey: {
+    //   type: 'apiKey',
+    //   name: 'clientkey',
+    //   in: 'header',
+    // },
+    // oauth2: {
+    //   type: 'oauth2',
+    //   tokenUrl: 'http://petstore.swagger.io/oauth/dialog',
+    //   flow: 'password',
+    //   scopes: {
+    //     'write:access_token': 'write access_token',
+    //     'read:access_token': 'read access_token',
+    //   },
+    // },
+  },
+  enableSecurity: false,
+  // enableValidate: true,
+  routerMap: false,
   enable: true,
 };
 ```
@@ -40,6 +60,8 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Introduce
 完成插件引入之后，如果不修改默认配置，应用启动后，会自动扫描app/controller和app/contract下的文件。controller下的文件先不做描述。contract下的文件为定义好的请求体和响应体。
+
+实验性功能：如果routerMap为true,允许自动生成API路由
 
 @Controller
 ---
@@ -68,9 +90,11 @@ class UserController extends Controller {
 格式：@Request {Position} {Type} {Name} {Description}
 
     a.position.参数的位置,该值可以是body/path/query/header/formData.
-    b.Type.参数类型，body之外位置目前只支持基础类型,integer/string/boolean/number，及基础类型构成的数组，body中则支持contract中定义的类型。
+    b.Type.参数类型，body之外位置目前只支持基础类型,integer/string/boolean/number，及基础类型构成的数组，body中则支持contract中定义的类型。如果position是formData还将支持 file 类型
     c.Name.参数名称.如果参数名称以*开头则表示必要，否则非必要。
     d.Description.参数描述
+    c.如果你想给query或者path的参数设置example，你可以在Description前添加以'eg:'开头的参数，实例如下
+    @Request query string contactId eg:200032234567 顾问ID
 
 @Response
 ---

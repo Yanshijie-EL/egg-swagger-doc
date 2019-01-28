@@ -45,7 +45,7 @@ exports.swaggerdoc = {
   enableSecurity: false,
   // enableValidate: true,
   routerMap: false,
-  enable: false,
+  enable: true,
 };
 
 exports.security = {

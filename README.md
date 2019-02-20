@@ -189,19 +189,6 @@ module.exports = {
 ```
 注：type可以是array之外的类型，包括自定义的类型，目前自定义类型不支持example
 
----
-
-@ENUM
-
-
-```js
-module.exports = {
-  Model名称:{
-    字段名称: { type: 字段类型，required: 字段必要性, enum:[]}
-  }
-}
-```
-注: type只能是string或number，enum为具体的数值组成的集合
 
 ---
 @ARRAY
@@ -221,6 +208,69 @@ type为array,itemType为具体的数组元素类型，支持自定义类型。
 
 关于自定义类型，必须定义在contract目录下，在contract下的其他类型中使用时，直接使用Model名称引入。
 
+---
+@自定义基本类型
+关于自定义基本类型，透传给`egg-validate`的类型，而不需要转为`object`。
+使用方式是这样的：
+
+* 在config.default.js中添加自定义类型（type）或自定义数组元素类型（itemType）的名称
+
+  ```js
+  exports.swaggerdoc = {
+    dirScanner: './app/controller',
+    basePath: '/',
+    apiInfo: {
+      title: 'egg-swagger',
+      description: 'swagger-ui for egg js api',
+      version: '1.0.0',
+    },
+    schemes: ['http', 'https'],
+    consumes: ['application/json'],
+    produces: ['application/json'],
+    enableSecurity: false,
+    routerMap: false,
+    enable: true,
+
+    // 自定义类型
+    type: ['ISOTime’,’enum’],
+    // 自定义数组元素类型
+    itemType: []
+  };
+
+  ```
+
+* 在自己的应用程序中使用 `this.app.validator.addRule`，如：
+
+  ```js
+      this.app.validator.addRule('ISOTime', (rule, value) => {
+        if (!moment(value, moment.ISO_8601).isValid()) {
+          return 'time must be UTC ISO8601 format';
+        }
+      });
+
+  ```
+
+* 在`contract/request`中可以直接使用类型`ISOTime`和`enum`
+
+  ```js
+  module.exports = {
+    custClass: {
+      time: {
+        type: 'ISOTime',
+        required: true,
+        allowEmpty: false
+      },
+
+      dayEnum: {
+        type: 'enum',
+        values: ['mon', 'tue', 'wed', 'thu', 'fri'],
+        default: 'person',
+        required: false,
+        convertType: 'string'
+      }
+    }
+  }
+  ```
 ---
 
 因为contract的定义和validate-rule的定义具有极大的相似性，所以目前的版本中定义contract的同时会简单的生成相应的validate-rule.具体的使用'ctx.rule.'加Model名称直接引入。

@@ -1,6 +1,6 @@
 {
-  "name": "egg-swagger-doc",
-  "version": "2.2.8",
+  "name": "egg-swagger-doc-dg",
+  "version": "2.2.9",
   "description": "swagger for egg",
   "eggPlugin": {
     "name": "swaggerdoc"
@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ysj291823/egg-swagger-doc.git"
+    "url": "git+https://github.com/DG-Wangtao/egg-swagger-doc.git"
   },
   "bugs": {
-    "url": "https://github.com/Ysj291823/egg-swagger-doc/issues"
+    "url": "https://github.com/DG-Wangtao/egg-swagger-doc/issues"
   },
-  "homepage": "https://github.com/Ysj291823/egg-swagger-doc#readme",
-  "author": "yanshijie",
+  "homepage": "https://github.com/DG-Wangtao/egg-swagger-doc#readme",
+  "author": "yanshijie, wayland, jasine",
   "license": "MIT"
 }

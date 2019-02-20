@@ -1,4 +1,4 @@
-# egg-swagger-doc
+# egg-swagger-doc-dg
 
 应用于eggjs的plugin,可自动生成SwaggerUI。应用启动后访问/swaagger-ui.html可以浏览页面，访问/swagger-doc,获取swaggerjson.
 这是一个简单例子，详见[here](https://github.com/Ysj291823/egg-example-api)
@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-$ npm i egg-swagger-doc --save
+$ npm i egg-swagger-doc-dg --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm i egg-swagger-doc --save
 // {app_root}/config/plugin.js
 exports.swaggerdoc = {
   enable: true,
-  package: 'egg-swagger-doc',
+  package: 'egg-swagger-doc-dg',
 };
 ```
 
@@ -284,7 +284,8 @@ ctx.validate(ctx.rule.createResource, ctx.request.body);
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/Ysj291823/egg-swagger-doc/issues).
+Please open an issue [here](https://github.com/DG-Wangtao/egg-swagger-doc/issues).
+Or Ysj291823's Repo [here](https://github.com/Ysj291823/egg-swagger-doc/issues).
 
 ## License
 

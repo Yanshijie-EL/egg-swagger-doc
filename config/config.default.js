@@ -47,7 +47,7 @@ exports.swaggerdoc = {
   routerMap: false,
   enable: true,
   type: ['ISOTime'],
-  itemType: []
+  itemType: [],
 };
 
 exports.security = {

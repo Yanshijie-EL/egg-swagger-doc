@@ -11,7 +11,5 @@ steps:
     email: torwayland@gmail.com
     
 trigger:
-  branch:
-  - release
   event:
   - tag

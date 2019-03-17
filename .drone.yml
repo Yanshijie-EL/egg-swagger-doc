@@ -9,7 +9,3 @@ steps:
     password: 
       from_secret: npm_password
     email: torwayland@gmail.com
-    
-trigger:
-  event:
-  - tag

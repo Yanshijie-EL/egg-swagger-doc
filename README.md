@@ -3,6 +3,17 @@
 应用于eggjs的plugin,可自动生成SwaggerUI。应用启动后访问/swaagger-ui.html可以浏览页面，访问/swagger-doc,获取swaggerjson.
 这是一个简单例子，详见[here](https://github.com/Ysj291823/egg-example-api)
 
+特别推荐
+---
+
+如下是taccisum同学开发的一个VSCode代码片段插件，能够自动生成swagger-doc的注释内容，同学们可以下载试试.
+
+项目地址：[https://github.com/taccisum/swagger-doc-snippets](https://github.com/taccisum/swagger-doc-snippets)
+
+因目前还没有发布到插件市场，可以通过
+[https://github.com/taccisum/swagger-doc-snippets/releases](https://github.com/taccisum/swagger-doc-snippets/releases)
+手动安装。
+
 ## Install
 
 ```bash

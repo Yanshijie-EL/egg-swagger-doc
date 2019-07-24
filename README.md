@@ -91,9 +91,9 @@ class UserController extends Controller {
 ```
 @Router
 ---
-格式：@Router {Mothod} {Path}
+格式：@Router {Method} {Path}
 
-    a.Mothod,请求的方法(post/get/put/delete等)，不区分大小写。
+    a.Method,请求的方法(post/get/put/delete等)，不区分大小写。
     b.Path,请求的路由。
 
 @Request 
